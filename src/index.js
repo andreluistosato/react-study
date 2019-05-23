@@ -5,7 +5,7 @@ import './general.css';
 //import App from './App';
 //import * as serviceWorker from './serviceWorker';
 
-import App from './components/general/App';
+import App from './components/todo/App';
 
 //const App = () => <h1>Hello world!</h1>
 

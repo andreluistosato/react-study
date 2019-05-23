@@ -1,16 +1,18 @@
 import React from 'react';
+import TodoItem from './TodoItem';
 
 function App() {
+    const listStyle = {
+        listStyle: 'none'
+    };
+
     return (
         <div>
-            <input type="checkbox" />
-            <p>Todo item 1</p>
-
-            <input type="checkbox" />
-            <p>Todo item 2</p>
-
-            <input type="checkbox" />
-            <p>Todo item 3</p>
+            <ul style={listStyle}>
+                <TodoItem />
+                <TodoItem />
+                <TodoItem />
+            </ul>
         </div>
     )
 }
